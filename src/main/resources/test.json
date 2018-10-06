@@ -1,0 +1,77 @@
+{
+"isDevTenant" : true,
+"sites" : [
+{
+"tenantId" : 24747,
+"catalogId" : 3,
+"localeCode" : "fr-CA",
+"countryCode" : "CA",
+"currencyCode" : "CAD",
+"domain" : "t24747-s37386.sandbox.mozu.com",
+"attributes" : [ ],
+"id" : 37386,
+"name" : "HH French"
+},
+{
+"tenantId" : 24747,
+"catalogId" : 2,
+"localeCode" : "en-US",
+"countryCode" : "CA",
+"currencyCode" : "CAD",
+"domain" : "t24747-s37387.sandbox.mozu.com",
+"attributes" : [ ],
+"id" : 37387,
+"name" : "HH English"
+},
+{
+"tenantId" : 24747,
+"catalogId" : 5,
+"localeCode" : "en-US",
+"countryCode" : "US",
+"currencyCode" : "CAD",
+"domain" : "t24747-s37388.sandbox.mozu.com",
+"attributes" : [ ],
+"id" : 37388,
+"name" : "Home Furniture"
+}
+],
+"masterCatalogs" : [
+{
+"tenantId" : 24747,
+"defaultLocaleCode" : "en-US",
+"defaultCurrencyCode" : "CAD",
+"catalogs" : [
+{
+"tenantId" : 24747,
+"masterCatalogId" : 2,
+"defaultLocaleCode" : "en-US",
+"defaultCurrencyCode" : "CAD",
+"id" : 2,
+"name" : "HH English"
+},
+{
+"tenantId" : 24747,
+"masterCatalogId" : 2,
+"defaultLocaleCode" : "fr-CA",
+"defaultCurrencyCode" : "CAD",
+"id" : 3,
+"name" : "HH French"
+},
+{
+"tenantId" : 24747,
+"masterCatalogId" : 2,
+"defaultLocaleCode" : "en-US",
+"defaultCurrencyCode" : "CAD",
+"id" : 5,
+"name" : "Home Furniture"
+}
+],
+"id" : 2,
+"name" : "HH Master"
+}
+],
+"domain" : "t24747.sandbox.mozu.com",
+"omsMerchantId" : 0,
+"id" : 24747,
+"name" : "IGN-HH-Full-Catalog"
+}
